@@ -34,8 +34,8 @@ public class GrantAccessHandler implements RequestHandler<GrantAccessRequest, Ob
 
     private void saveOtp(String otp, String faceId) {
         DbClient dbClient = DbClientFactory.getInstance();
-        Map<String, String> lookUp = dbClient.getItem("visitors", "face_id", faceId);
+        Map<String, String> lookUp = dbClient.getItem("passcodes", "face_id", faceId);
         lookUp.put("otp", otp);
-        dbClient.updateItem("visitors", "face_id", faceId, lookUp);
+        dbClient.updateItem("passcodes", "face_id", faceId, lookUp);
     }
 }
