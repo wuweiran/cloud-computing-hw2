@@ -12,6 +12,7 @@
         <module>cloud-computing-hw2-lambda1</module>
         <module>cloud-computing-hw2-common</module>
         <module>cloud-computing-hw2-lambda2</module>
+        <module>cloud-computing-hw2-lambda0</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

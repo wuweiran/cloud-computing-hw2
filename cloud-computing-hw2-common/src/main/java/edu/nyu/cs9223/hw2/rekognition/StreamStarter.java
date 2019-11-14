@@ -21,8 +21,8 @@ public class StreamStarter {
                     matchThreshold);
             //sm.createStreamProcessor();
             //sm.startStreamProcessor();
-            sm.deleteStreamProcessor();
             //sm.deleteStreamProcessor();
+            sm.deleteStreamProcessor();
             //sm.stopStreamProcessor();
             //sm.listStreamProcessors();
             //sm.describeStreamProcessor();

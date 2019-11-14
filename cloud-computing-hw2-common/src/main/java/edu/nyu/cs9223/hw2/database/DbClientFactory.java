@@ -2,8 +2,10 @@ package edu.nyu.cs9223.hw2.database;
 
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder;
-import edu.nyu.cs9223.hw2.notification.SnsClient;
 
+/**
+ * @author wwrus
+ */
 public class DbClientFactory {
     private volatile static DbClient dbClient;
 
